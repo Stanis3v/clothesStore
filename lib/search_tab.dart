@@ -53,7 +53,7 @@ class _SearchTabState extends State<SearchTab> {
     final model = Provider.of<AppStateModel>(context);
     final results = model.search(_terms);
 
-    return DecorateBox(
+    return DecoratedBox(
       decoration: const BoxDecoration(
         color: Styles.scaffoldBackground,
       ),
